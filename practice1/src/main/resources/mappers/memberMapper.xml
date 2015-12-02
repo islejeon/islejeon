@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE mapper
+  PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN"
+  "http://mybatis.org/dtd/mybatis-3-mapper.dtd">
+  
+  <mapper namespace="org.isle.persistence.MemberMapper">
+  	<insert id="create">
+  		insert into tbl_member(userid,upw,uname,email,phone, birth, gender) 
+		values(#{userid},#{upw},#{uname},#{email},#{phone},#{birth},#{gender})
+  	 	
+  	</insert>
+ 
+  	<select id="read" resultType="org.isle.domain.MemberVO">
+  		select * from tbl_member where userid=#{userid}
+  	</select>
+  	
+	<select id="delete">
+  		delete from tbl_member where userid=#{userid}
+  	
+  	</select>
+  	
+  	<select id="update">
+  		 update tbl_member set userid=#{userid}, upw=#{upw} ,uname=#{uname},email=#{email}
+  		 ,phone=#{phone}, birth=#{birth}, gender=#{gender} where userid=#{userid}
+  	</select>
+  	
+  	
+  </mapper>
