@@ -6,6 +6,7 @@ public class MemberVO {
 	//수정 6:23
 	// 커밋을 먼저 하고~! 풀 합니다.
 	// 한번에 되나 보자.
+	//수정되나 보자
 	private String userid;
 	private String upw;
 	private String uname;
