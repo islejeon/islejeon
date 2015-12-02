@@ -15,4 +15,5 @@ public interface MemberMapper extends CRUDMapper<MemberVO, String> {
 //	public void update(MemberVO vo) throws Exception;	
 //수정이 되는감????
 	
+	// 은혜ㅒ 수정
 }
