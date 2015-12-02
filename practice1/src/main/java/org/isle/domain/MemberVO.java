@@ -3,7 +3,7 @@ package org.isle.domain;
 import java.sql.Date;
 
 public class MemberVO {
-	
+	//수정 6:23
 	private String userid;
 	private String upw;
 	private String uname;
