@@ -58,6 +58,9 @@ public class MemberVO {
 		return "MemberVO [userid=" + userid + ", upw=" + upw + ", uname=" + uname + ", email=" + email + ", phone="
 				+ phone + ", birth=" + birth + ", gender=" + gender + "]";
 	}
+	public String jeno(){
+		return null;
+	}
 	
 
 }
