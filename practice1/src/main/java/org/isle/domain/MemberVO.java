@@ -8,7 +8,7 @@ public class MemberVO {
 	// 한번에 되나 보자.
 	//수정되나 보자
 	// 다시 되나 봅니다.... 6:34
-	// Git-hub의 수정폼을 한 번 봅시다요.
+	// Git-hub의 수정폼을 한 번 봅시다요.vbbbbbb
 	
 	private String userid;
 	private String upw;
