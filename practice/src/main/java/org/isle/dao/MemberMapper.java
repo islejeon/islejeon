@@ -1,6 +1,6 @@
 package org.isle.dao;
 
-import org.isle.domain.MemberVO;
+import org.nj.domain.MemberVO;
 
 public interface MemberMapper extends CRUDMapper<MemberVO, String> {
 	
@@ -19,5 +19,5 @@ public interface MemberMapper extends CRUDMapper<MemberVO, String> {
 	//2차 수정
 	//3차 수정 반영
 	//4kim
-	//5.6.7.8.9.
+	//5.6.7.8.9.000
 }
