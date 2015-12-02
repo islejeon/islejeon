@@ -16,4 +16,5 @@ public interface MemberMapper extends CRUDMapper<MemberVO, String> {
 //수정이 되는감????
 	
 	// 은혜ㅒ 수정
+	//2차 수정
 }
